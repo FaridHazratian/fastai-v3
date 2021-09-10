@@ -9,10 +9,11 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-8kxaf7d8w9xbDGydy_QHQ1J4wKL4Boi'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['fender_telecaster', 'gibson_les_paul', 'gibson_es', 'gibson_explorer', 'gibson_flying_v', 'fender_mustang', 'fender_stratocaster',
+             'gibson_sg', 'fender_jaguar', 'gibson_firebird', 'fender_jazzmaster']
 path = Path(__file__).parent
 
 app = Starlette()
